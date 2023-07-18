@@ -15,6 +15,8 @@ Estaba implementando la barra de busqueda (que lo tengo hecho en la app de Rick 
 
 Los componentes utilizan un service (pokemon.service.ts) con unos GET para coger la info de la API. 
 
+IMPORTANTE: no se el motivo porque con Rick and Morty no me pasó, pero al subirlo a Amplify no se ve la lista de de Pokemon, desde Visual Studio Code va bien.
+
 ![image](https://github.com/Santbrau/mss-fe-gc-poke-app-07-2023/assets/135845147/c3e1a274-d4d4-4417-89cc-4fd41d50e798)
 
 ![image](https://github.com/Santbrau/mss-fe-gc-poke-app-07-2023/assets/135845147/3062e3a0-7736-4029-9ea4-4f1b8db93f95)
