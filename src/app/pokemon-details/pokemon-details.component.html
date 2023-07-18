@@ -1,0 +1,14 @@
+<div class="pokemon-details-container">
+    <div class="pokemon-details">
+      <div class="card">
+        <img [src]="selectedPokemon?.imageUrl" class="card-img-top" alt="Pokemon Image">
+        <div class="card-body">
+          <h5 class="card-title">{{ selectedPokemon?.name }}</h5>
+          <p class="card-text">Pokédex #: {{ getPokemonNumber(selectedPokemon?.url) }}</p>
+          <p class="card-text">Type: {{ getPokemonTypes(selectedPokemon?.url) }}</p>
+        </div>
+      </div>
+      <button class="btn btn-primary close-button" (click)="onClose()">Cerrar</button>
+    </div>
+  </div>
+  

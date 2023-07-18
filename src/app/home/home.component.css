@@ -1,0 +1,9 @@
+.home-container {
+    background-image: url("./images/pxfuel.jpg");
+    width: 100vw;
+    height: 94vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding-top: 10vh;
+}
